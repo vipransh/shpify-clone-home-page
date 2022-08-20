@@ -9,5 +9,5 @@ It was an amazing experience to learn about  Tailwind CSS properties while devel
 ## Time spent on this project
 Tt took almost 10 hour to complete this project.
 
-[Live-Link]()
+[Live-Link](https://shopify-clone-vipransh.netlify.app/)
  
