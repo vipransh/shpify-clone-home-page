@@ -34,6 +34,18 @@
           padding: 0;
           box-sizing: border-box;
         }
+        .rotate {
+                animation: rotation 10s infinite linear;
+                z-index: -2;
+                }
+        @keyframes rotation {
+             from {
+                  transform: rotate(0deg);
+                   }
+               to {
+                  transform: rotate(359deg);
+                   }
+                }       
       </style>
 </head>
 <body>
@@ -246,7 +258,7 @@
     </div>
     <!-- earth image section -->
     <div class="py-2 px-4 flex justify-center">
-      <img class="md:w-3/5 w-4/5" src="resources/earth-shopify.png" alt="">
+      <img class="md:w-1/2 w-4/5 rotate" src="resources/earth-shopify.png" alt="">
     </div>
     <!-- Alicia img section -->
     <div class="px-14">
